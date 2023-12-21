@@ -1,9 +1,16 @@
 /* Change size of logo */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 .nav-logo img {
-    max-width: 100px 
+    max-width: 200px 
 }
 
 img {
+    width: 25%;
     
 }
 
@@ -15,5 +22,5 @@ a {
 }
 body {
     font-family:;
-    background-color:
+    background-color: 
 }
