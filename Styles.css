@@ -6,20 +6,30 @@
 }
 
 .nav-logo img {
-    max-width: 200px 
+    max-width: 100px;
 }
 
 nav {
+    max-width: 1200px;
     margin: auto;
     align-items: center;
-    padding: ;
-    gap: ;
-    display: ;
+    padding: 2rem 3rem;
+    gap: 2rem;
+    display: flex
+}
+
+.nav-links {
+    align-items: center;
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li > a {
+    padding: 2rem;
 }
 
 img {
-    width: 25%;
-    
+    width: 100%;
 }
 
 /* Remove blue underline from link */
@@ -30,5 +40,5 @@ a {
 }
 body {
     font-family:;
-    background-color: 
+    background-color:
 }
