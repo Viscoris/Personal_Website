@@ -32,7 +32,6 @@ nav{
 .nav-logo {
     max-width: 150px;
     margin-left: -650px;
-    
 }
 
 .nav-links {
@@ -54,7 +53,7 @@ nav{
 .link a::before, .link a::after {
     margin-right: 4px;
     content: "\\\\";
-    font-style: ;
+    
 }
 
 .link a::after {
@@ -64,8 +63,8 @@ nav{
     width: 0;
     bottom: 0;
     left: 0;
-    background-color: #1d4ed8;
-    transition: all 0.3s ease;
+    background-color: #ffffff7f;
+    transition: all 0.3s ;
 }
 
 .link a:hover::after {
@@ -88,6 +87,14 @@ header .content h1 {
     color: #fff;
     font-weight:bold;
     font-size: 6rem;
+}
+
+header .content h4 {
+    padding-top: 20px;
+    font-size: 2rem;
+    color: #ccc;
+    font-weight: lighter;
+    font-style: italic;
 }
 
 
