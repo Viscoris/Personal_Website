@@ -3,29 +3,44 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+
 }
 
 .nav-logo img {
-    max-width: 100px;
+    max-width: 150px;
+    display: flex;
+    
 }
 
 nav {
-    max-width: 1200px;
     margin: auto;
     align-items: center;
-    padding: 2rem 3rem;
+    padding: 2rem 1rem;
     gap: 2rem;
-    display: flex
+    display: flex;
+    justify-content: space-between;
 }
 
 .nav-links {
     align-items: center;
     list-style: none;
     display: flex;
+    gap: 3rem;
 }
 
 .nav-links li > a {
     padding: 2rem;
+    font-size: 18px;
+}
+
+.btn {
+    padding: 1rem;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #1d4ed8;
+    border-radius: 2px;
+    cursor: pointer;
+    transition: all 0.3s ease;
 }
 
 img {
@@ -41,4 +56,8 @@ a {
 body {
     font-family:;
     background-color:
+}
+
+.content h1 span {
+    color:red;
 }
