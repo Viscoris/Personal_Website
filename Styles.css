@@ -18,12 +18,12 @@ a {
 
 body {
     font-family: 'Poppins', sans-serif;
-    background-color:;
+    background-color: #18181B;
     
 }
 
 nav{
-    max-width: 2300px;
+    max-width: 2000px;
     margin: auto;
     padding: 2rem 1rem;
     display: flex;
@@ -46,7 +46,7 @@ nav{
 .link a {
     position: relative;
     padding-bottom: 0.75rem;
-    color: black;
+    color: #fff;
 }
 
 .link a::after {
@@ -77,7 +77,7 @@ nav{
 }
 
 .wrapper {
-    max-width: 1200px;
+    max-width: 2300px;
     margin: auto;
     padding: 5rem 2rem;
 }
@@ -88,8 +88,37 @@ header{
     display: flex;
     grid-template-columns: repeat(2, 1fr);
     align-items: center;
-    gap: 5rem;
-    
+    gap: 5rem;   
+}
+
+header .content h4 {
+    margin-bottom: 2rem;
+    color: #ccc;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+header .content h1 {
+    color: #fff;
+    margin-bottom: 1rem;
+    font-size: 3rem;
+    font-weight: 700;
+    line-height: 4rem;
+}
+
+header .content span {
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 1px #ffff;
+}
+
+header .content p {
+    margin-bottom: 2rem;
+    color: #ccc;
+}
+
+header .image {
+    position: relative;
+
 }
 
 
