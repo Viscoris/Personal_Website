@@ -1,95 +1,97 @@
-/* Change size of logo */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;800&display=swap');
+
 * {
-    margin: 0;
     padding: 0;
+    margin: 0;
+    outline: none;
+    border: none;
     box-sizing: border-box;
-    background-color:
-    
+}
+
+img{
+    width: 100%;
+}
+
+a {
+   text-decoration: none; 
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color:;
     
 }
 
-.nav-logo img {
-    max-width: 150px;    
-    
-}
-
-nav {
-    max-width: 5000px;
+nav{
+    max-width: 2300px;
     margin: auto;
-    align-items: center;
     padding: 2rem 1rem;
     display: flex;
+    align-items: center;
     justify-content: space-between;
     gap: 2rem;
 }
 
+.nav-logo {
+    max-width: 150px;
+}
+
 .nav-links {
-    align-items: center;
     list-style: none;
     display: flex;
+    align-items: center;
     gap: 10rem;
 }
 
 .link a {
     position: relative;
-    padding-bottom: 1%;
+    padding-bottom: 0.75rem;
     color: black;
-}
-
-
-.link a:hover::after {
-    width: 70%; 
 }
 
 .link a::after {
     content: "";
     position: absolute;
-    background-color: #1d4ed8;
     height: 2px;
     width: 0;
     bottom: 0;
     left: 0;
+    background-color: #1d4ed8;
     transition: all 0.3s ease;
+}
+
+.link a:hover::after {
+    width: 70%; 
+}
+
+.btn {
+    padding-top:;
+    padding: 1rem;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #1d4ed8;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+         
+}
+
+.wrapper {
+    max-width: 1200px;
+    margin: auto;
+    padding: 5rem 2rem;
+}
+
+
+header{
+    position: relative;
+    display: flex;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    gap: 5rem;
     
 }
 
 
 
-.btn {
-    padding: 1rem;
-    font-size: 1rem;
-    color: #fff;
-    background-color: #1d4ed8;
-    border-radius: 2px;
-    cursor: pointer;
-    margin-right: 10%;
-    }
-
-img {
-    width: 100%;
-    display: flex;
-}
-
-
-a {
-    text-decoration: none 
-
-
-}
-body {
-    font-family:;
-    background-color:
-}
-
-.wrapper {
-    max-width:1200px;
-    margin: auto;
-    padding: 5rem 2rem;
-}
-
-header {
-    position: relative;
-    display: grid;
-    gap: 2rem;
-}
 
