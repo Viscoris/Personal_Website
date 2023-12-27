@@ -5,11 +5,7 @@
     margin: 0;
     outline: none;
     border: none;
-    box-sizing: border-box;
-}
-
-img{
-    width: 100%;
+    box-sizing: border-box;   
 }
 
 
@@ -17,41 +13,31 @@ body {
     font-family: 'Poppins', sans-serif;
     background: url(images/block.png);
     background-size: cover;
+
 }
 
 nav{
-    max-width: 1000px;
+    max-width: 900px;
     margin: auto;
     padding: 2rem 1rem;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 2rem;    
-}
-
-.nav-logo {
-    max-width: 150px;
-    margin-left: -650px;
 }
 
 .nav-links {
     list-style: none;
     display: flex;
-    align-items: center;
     gap: 10rem;
 }
 
 .link a {
     text-decoration: none;
     position: relative;
-    padding-bottom: 0.75rem;
-    color: #fff;
-    font-size: 17px;
+    color: #ffff;
+    font-size: 20px;
        
 }
 
 .link a::before, .link a::after {
-    margin-right: 4px;
+    margin-right: 2px;
     content: "\\\\";
     
 }
@@ -63,8 +49,8 @@ nav{
     width: 0;
     bottom: 0;
     left: 0;
-    background-color: #ffffff7f;
-    transition: all 0.3s ;
+    background-color: blue;
+    transition: all 0.5s ;
 }
 
 .link a:hover::after {
@@ -75,22 +61,19 @@ nav{
 
 .wrapper {
     text-align: center;
-    max-width: 2300px;
-    margin: auto;
-    padding: 5rem 2rem;
+    padding: 5rem
 }
 
 
 
 header .content h1 {
-    padding-top: 100px;
+    padding-top: 210px;
     color: #fff;
     font-weight:bold;
     font-size: 6rem;
 }
 
 header .content h4 {
-    padding-top: 20px;
     font-size: 2rem;
     color: #ccc;
     font-weight: lighter;
